@@ -1,0 +1,20 @@
+* {
+	box-sizing: border-box;
+}
+
+
+.right-quote {
+	text-align: right;
+}
+
+.panel-img {
+	background-image: url("images/LewisFriends.jpg");
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.panel-img blockquote {
+	color: yellow;
+}
