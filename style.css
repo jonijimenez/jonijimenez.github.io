@@ -8,7 +8,7 @@ body {
 
 .quote {
 	background-color: #763626;
-	font-family: Lobster;
+	font-family: Lobster, sans-serif;
 }
 
 .right-quote {
@@ -50,15 +50,6 @@ blockquote {
 	align-self: center;
 }
 
-.right h5 {
-	align-self: flex-start;
-}
-
-.right p {
-	font-family: "Dancing Script";
-	font-size: 18px;
-}
-
 .main {
 	border: 2px solid #336B87;
 	padding: 10px;
@@ -70,9 +61,6 @@ blockquote {
 	padding: 5px;
 }
 
-h1 {
-	font-family: "Dancing Script";
-}
 
 h4, h5 {
 	font-family: Lobster;
