@@ -1,7 +1,15 @@
 * {
 	box-sizing: border-box;
 }
+body {
+	background-color: #2A3132;
+	color: #90AFC5;
+}
 
+.quote {
+	background-color: #763626;
+	font-family: Lobster;
+}
 
 .right-quote {
 	text-align: right;
@@ -15,6 +23,57 @@
 	justify-content: center;
 }
 
+blockquote {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: Lobster;
+}
+
 .panel-img blockquote {
-	color: yellow;
+	color: #2A3132;
+	/*background-color: rgba(42,49,50,0.7); black*/
+	/* background-color: rgba(41,107,135,0.7); stone */
+	background-color: rgba(118,54,38,0.4);
+	font-weight: bold;
+	height: 100px;
+	width: 75%;
+}
+
+.right {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+.right img {
+	align-self: center;
+}
+
+.right h5 {
+	align-self: flex-start;
+}
+
+.right p {
+	font-family: "Dancing Script";
+	font-size: 18px;
+}
+
+.main {
+	border: 2px solid #336B87;
+	padding: 10px;
+	margin: 0 0 20px 0;
+}
+
+.timeline {
+	border: 2px solid #763626;
+	padding: 5px;
+}
+
+h1 {
+	font-family: "Dancing Script";
+}
+
+h4, h5 {
+	font-family: Lobster;
 }
